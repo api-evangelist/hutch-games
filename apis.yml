@@ -1,8 +1,25 @@
 aid: hutch-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hutch-games.png
 name: Hutch Games
-description: 'Hutch Games is a company surfaced as a portfolio company of index-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: entertainment. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Hutch Games (Hutch) is a mobile game development studio founded in London
+  with additional studios in Dundee, Scotland and Nova Scotia, Canada. Hutch specializes
+  in free-to-play mobile driving and car games, developing and publishing titles including
+  F1 Clash, Top Drives, and Matchcreek Motors. The studio was surfaced as a portfolio
+  company of Index Ventures and added to the API Evangelist network. As a consumer
+  mobile game publisher, Hutch does not currently expose a public developer API or
+  developer program; this profile captures the company identity, public web properties,
+  and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/hutch-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Entertainment
+- Gaming
+- Mobile Games
+- Game Development
+- Racing Games
+- Free To Play
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://hutchgames.com
+  url: https://www.hutch.io/
+- type: About
+  url: https://www.hutch.io/our-story/
+- type: Blog
+  url: https://www.hutch.io/blog/
+- type: Support
+  url: https://www.hutch.io/contact-us/
+- type: Careers
+  url: https://www.hutch.io/careers/
+- type: TermsOfService
+  url: https://www.hutch.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.hutch.io/privacy
+- type: Twitter
+  url: https://twitter.com/hutchgames/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hutch-games-ltd/
+- type: YouTube
+  url: https://www.youtube.com/hutchgames/
+- type: Facebook
+  url: https://www.facebook.com/HutchGames/
+- type: DomainSecurity
+  url: security/hutch-games-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
